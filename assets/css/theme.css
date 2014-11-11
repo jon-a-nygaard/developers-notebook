@@ -1,9 +1,7 @@
 /*http://paletton.com/#uid=33u1o0kcglL4Zvw8Eq6eXhmkwen*/
-.page.stl-1 {
-	color: white;
-	background-color: #47606E;
-}
-
+/*
+* Default styles
+*/
 button.btn-default,
 a.btn-default {
 	color: white;
@@ -26,4 +24,19 @@ a {
 a:hover {
 	color: white;
 	font-weight: bolder;
+}
+/*
+* Pages styling
+*/
+.page.stl-1 {
+	color: white;
+	background-color: #47606E;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.page.stl-2 {
+	color: white;
+	background-color: #704671;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 }
